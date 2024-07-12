@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posefore Car Wash</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Posefore Car Wash</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">عنا</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#before-after">قبل وبعد</a></li>
+                <li><a href="#pricing">الأسعار</a></li>
+                <li><a href="#contact">الاتصال بنا</a></li>
+            </ul>
+            <div class="language-selector">
+                <label for="language">اللغة:</label>
+                <select id="language">
+                    <option value="ar">العربية</option>
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="de">Deutsch</option>
+                    <option value="zh">中文</option>
+                    <!-- Add more languages as needed -->
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2 class="welcome">مرحبا بكم في البوسفور لغسيل وتلميع السيارات</h2>
+            <p class="intro">نحن هنا لنجعل سيارتك تبدو كالجديدة، بفضل فريقنا المحترف والمتخصص في تنظيف وتلميع السيارات. سواء كنت تبحث عن غسيل سريع أو خدمة متكاملة، فإننا نقدم لك أفضل الخيارات. احجز موعدك الآن واستمتع بتجربة غسيل سيارة مريحة ومميزة.</p>
+        </section>
+
+        <section id="about">
+            <h2>عنا</h2>
+            <p>نحن البوسفور لغسيل وتلميع السيارات، نقدم أفضل خدمات غسيل السيارات باستخدام أحدث التقنيات وأفضل المواد.</p>
+        </section>
+
+        <section id="services">
+            <h2>خدماتنا</h2>
+            <div class="service">
+                <i class="fas fa-car"></i>
+                <h3>غسيل خارجي</h3>
+                <p>نقدم خدمة الغسيل الخارجي بأفضل المواد.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-car-side"></i>
+                <h3>غسيل داخلي</h3>
+                <p>نقدم خدمة الغسيل الداخلي بكفاءة عالية.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-water"></i>
+                <h3>تنظيف المحرك</h3>
+                <p>نقوم بتنظيف المحرك بأحدث التقنيات.</p>
+            </div>
+        </section>
+
+        <section id="before-after">
+            <h2>قبل وبعد</h2>
+            <div class="media">
+                <img src="car-before.jpg" alt="صورة قبل الغسيل">
+                <img src="car-after.jpg" alt="صورة بعد الغسيل">
+                <video controls>
+                    <source src="car-wash-video.mp4" type="video/mp4">
+                    متصفحك لا يدعم عرض الفيديو.
+                </video>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>الأسعار</h2>
+            <div class="price">
+                <h3>غسيل خارجي</h3>
+                <p>3 دينار كويتي</p>
+            </div>
+            <div class="price">
+                <h3>غسيل داخلي</h3>
+                <p>4.5 دينار كويتي</p>
+            </div>
+            <div class="price">
+                <h3>تنظيف المحرك</h3>
+                <p>6 دينار كويتي</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>الاتصال بنا</h2>
+            <form>
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>تابعونا على وسائل التواصل الاجتماعي</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Posefore Car Wash</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
